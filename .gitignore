@@ -1,0 +1,14 @@
+# Ignore Virtual Environment
+venv/
+_pycache_/
+*.pyc
+
+# Ignore Secrets (CRITICAL)
+encrypted_seed.txt
+decrypted_seed_test.txt
+data/seed.txt
+submission_proof.txt
+
+# Ignore IDE files
+.vscode/
+.idea/
