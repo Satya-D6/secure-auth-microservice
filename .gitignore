@@ -1,14 +1,8 @@
-# Ignore Virtual Environment
-venv/
-_pycache_/
-*.pyc
-
-# Ignore Secrets (CRITICAL)
+student_private.pem
 encrypted_seed.txt
 decrypted_seed_test.txt
 data/seed.txt
-submission_proof.txt
 
-# Ignore IDE files
-.vscode/
-.idea/
+__pycache__/
+*.pyc
+*.pem
